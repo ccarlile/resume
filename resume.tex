@@ -1,0 +1,255 @@
+\documentclass[9pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames]{color}
+\usepackage{verbatim}
+\usepackage{lipsum}
+
+\leftmargin=0.25in
+\oddsidemargin=0.25in
+\textwidth=6.0in
+\topmargin=-0.25in
+\textheight=9.25in
+
+\raggedright
+
+\pagenumbering{arabic}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \textsc {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{ \center
+{\Large \textsc{Christopher Vaden Carlile}} \\
+530 Summitt St. \\
+Memphis, TN 38104 \\
+christopher.carlile@gmail.com \\
+901-356-4387 \\ \bigskip{}
+}
+
+{ \raggedright
+\today
+\bigskip{}
+
+Mr. Mike O'Hearn \\
+Lokion \\
+\bigskip
+
+Dear Mr. O'Hearn, \\ 
+\ \ \ \ I am friends with your wife Chloe through the flow arts scene here in Memphis. She recently posted on Facebook an article about alternative workspaces here, and your company, Lokion, was featured. Lokion's attitude toward employee freedom and individuality resonates with me deeply, and employers who go out of the way to look after their employees the way Lokion does is truly an ideal I just don't see enough of. That you offer facilities for, and encourage cycling is rare in Memphis but critical to me. Seeing Lokion's emphasis on community and collaboration compelled me to apply. \\
+\ \ \ \ It's very fortunate, I think, that I found your company at this time. I'm currently a non-degree seeking graduate student at the University of Memphis, working toward a certificate in Cognitive Science. I initially was trying to get research experience in hopes of applying for a Ph.D., but I am now convinced that academia is not for me. I believe my next step is honing my skills as a programmer, and my skillset lines up with what is required for the Entry-Level C\# Developer position currently posted on Lokion's page. \\
+\ \ \ \ I've been familiar with C/C++ since I took several CS classes as an undergrad, and the transition to C\# has been pretty natural. I'm very much used to working on a team, and my experience working at Adobe showed me what that looks like in the context of software development. I picked up some very useful QA skills there, as well. Regardless, I'm confident in my ability to learn new technologies, and as a lifelong computer enthusiast I see this as a process that never stops, only grows. Attached is my r\'{e}sum\'{e, and if you have any questions please don't hesitate to get in touch. I look forward to hearing from you soon.
+}
+{
+ \\
+\bigskip{} \\
+Sincerely, \\
+\bigskip{} \\
+Chris Carlile
+}
+
+\newpage{}
+\pagenumbering{gobble}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+\contact{Christopher Vaden Carlile}{christopher.carlile@gmail.com}{(901) 356-4387}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Objective
+\header{Objective}
+
+\begin{body}
+	\vspace{14pt}
+Entry-Level C\# Developer Position at Lokion
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{Education}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{B.S. Mathematics Honors --- Cum Laude} \hfill \emph{December 2012} \\
+	\emph{The University of Tennessee at Knoxville}, Knoxville, TN\\
+\end{body}
+	\begin{comment}
+	\\
+	\textbf{Coursework includes:} Honors Introductory Physics (2 semesters), Modern Physics, Mathematical Physics, Data Structures, Computer Organization, Scientific Computing, Honors Analysis, Honors Algebra, Graph Theory, Partial Differential Equations, Probability \& Statistics, Number Theory, and Combinatorics.
+	\end{comment}
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+\header{Professional Experience}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{Graduate Assistant}, \emph{Institute for Intelligent Systems} \hfill \emph{September 2014 - Present}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item Work with Windows Azure Pack and C\# to help prototype backend for experimental Web App.
+		\item Use web scraping technolgoies and Python scripting to gather and format text data for large $n$ Natural Language Processing research.
+		\item Attend, participate in, and present to public weekly research meetings.
+	\end{itemize}
+	
+	\textbf{Research Intern}, \emph{Institute for Intelligent Systems} \hfill \emph{June 2014 - August 2014}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item Created content for intelligent tutoring software using custom authoring tools on topics from Gateway Algebra to Bicycle Maintenance.
+		\item Performed preprocessing and statistical analyses on experimental data.
+		\item Programmed research tools using a variety of languages and API's, such as a real-time Twitter scraper.
+	\end{itemize}
+	
+
+	\textbf{Mechanic and Salesperson}, \emph{Peddler Bike Shop} \hfill \emph{October 2013 - June 2014}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item Diagnosed and fixed mechanical issues on bicycles ranging from Wal-Mart bicycles to mountain bikes worth several thousand dollars.
+		\item Greeted and interacted with customers of all levels of cycling expertise, identified necessary service, and informed them about parts and accessories. 
+	\end{itemize}
+	
+	\textbf{Bicycle Tourist}, \emph{Eastern United States} \hfill \emph{Summer 2013}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item Self-reliant adventurer, outdoorsman, cyclist, mechanic, chef, and man of the world.
+	\end{itemize}
+	
+	\textbf{Quality Tester}, \emph{Zerochaos, contracted to Adobe Systems, Inc.} \hfill \emph{November 2012 - April 2013}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item Used knowledge of UNIX systems to perform daily black-box testing of proprietary software on Android devices.
+		\item Responsible for writing bug reports and communicating problems in a percise manner.
+		\item Streamlined workflow across the team by writing and disseminating shell utilities.
+	\end{itemize}
+\begin{comment}
+	\textbf{Senior Counselor}, \emph{Milton Collins Day Camp} \hfill \emph{Summer 2012}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item Responsible for groups of 2nd-6th graders and for creating a safe, spirited, and fun experience. 
+		\item Worked with supervisors and fellow staff in ensuring management of children, supplies, and instruction.
+		\item Helped lead camp-wide multi-day event, radically different from day-to-day activities. %Came in last place only because we lost Basketball. 
+	\end{itemize}
+\end{comment}
+
+	\textbf {Summer Researcher}, \emph{University of Tennessee Department of Mathematics} \hfill \emph{Summer 2010}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt
+		\item Assisted Dr. Conrad Plaut in research on Discrete Homotopy Theory in the Math Honors summer research program.
+		\item Helped direct and investigate original research with a peer group and presented results at the Young Mathematicians Conference, September 2012.
+	\end{itemize}
+	\begin{comment}
+	\textbf {Assistant Waterfront Director}, \emph{Kia Kima Scout Reservation} \hfill \emph{Summers, 2008 - 09}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt
+		\item Instructed waterfront merit badges, including lifesaving and CPR skills.
+		\item Managed other instructors and ensured safety with both preventative and remedial action.
+	\end{itemize}
+	\end{comment}
+	
+\end{body}
+
+\smallskip
+
+% \newpage{} % uncomment this line if you want to force a new page
+
+
+% Skills
+\header{Skills}
+
+\begin{body}
+	\vspace{14pt}
+	\emph{\textbf{Languages:}}{} C/C++, Python, MatLab, \LaTeX , R, C\#, HTML, CSS\\
+	\medskip
+	\emph{\textbf{Operating Systems:}}{} Windows, Linux/UNIX, Mac OSX\\
+	\medskip
+%	\emph{\textbf{Spanish Skills:}}{} Proficient reading and writing; intermediate speaking and listening.
+	%\medskip
+	%\emph{\textbf{Not Basketball}}
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awards and Honors
+\header{Awards and Honors}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Chancellor's Honors Program}, The University of Tennessee \hfill{} \emph{2008 - 2012}\\
+	\smallskip
+	\textbf{Presidential Scholar}, The University of Tennessee \hfill{} \emph{2008 - 2012} \\
+	\smallskip
+	\textbf{National Merit Scholar} \hfill{} \emph{2008 - 2012} \\
+	\smallskip
+	\textbf{Mathematics Honors Program}, The University of Tennessee \hfill{} \emph{2010 - 2012} \\
+	\smallskip
+	\textbf{Budapest Semesters in Mathematics Alumni}, Budapest, Hungary \hfill{} \emph{Spring 2011} \\
+	\smallskip
+	\textbf{Eagle Scout} \hfill{} \emph{May, 2010}
+\end{body}
+
+\end{document}
