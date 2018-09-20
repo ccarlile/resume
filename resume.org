@@ -18,7 +18,7 @@ https://github.com/ccarlile
 *** Data Services Engineer - Banno | Jack Henry & Associates
     April 2016 - Present
    - Contributed to, then lead design of, a mission-critical ACH transfers feature in a legacy Akka codebase.
-   - Ensure that client & customer data & money are secure in transit and at rest using fundamental approaches.
+   - Ensure that client data & money are secure in transit and at rest using fundamental approaches.
    - Attended and presented in regular meetings for all-hands, product, and team. Participate in peer-learning book clubs.
    - Engage with client-facing teams to diagnose, document, and fix issues. Started and continue to maintain a team wiki.
      
