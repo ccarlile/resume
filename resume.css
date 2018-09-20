@@ -1,0 +1,41 @@
+html {
+  font-size: 78%;
+}
+
+body {
+  font-family: Source Sans, Helvetica, Sans-Serif;
+}
+
+p {
+  margin: .5em .5em 0 .5em;
+}
+
+h2 {
+  margin-bottom: .2em;
+}
+
+h3 {
+  margin-top: 1em;
+  margin-bottom: .1em;
+}
+
+body {
+  background-color: "black";
+}
+
+.info {
+  text-align: center;
+}
+
+hr {
+  border-color: #a3bbe0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.info .org-ul {
+  list-style: none;
+}

@@ -1,0 +1,110 @@
+#+TITLE: Christopher Carlile
+#+OPTIONS: toc:nil
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: num:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="resume.css" />
+
+#+begin_info
+Memphis, TN • 901-356-4387
+
+christopher.carlile@gmail.com
+
+https://github.com/ccarlile
+#+end_info
+
+
+** Professional Experience
+-----
+*** Data Services Engineer - Banno | Jack Henry & Associates
+    April 2016 - Present
+   - Contributed to, then lead design of, a mission-critical ACH transfers feature in a legacy Akka codebase.
+   - Ensure that client & customer data & money are secure in transit and at rest using fundamental approaches.
+   - Attended and presented in regular meetings for all-hands, product, and team. Participate in peer-learning book clubs.
+   - Engage with client-facing teams to diagnose, document, and fix issues. Started and continue to maintain a team wiki.
+     
+*** Founder - Benntoo
+    2016 - Present
+   - Conceived, planned, and executed a business model that empowers nonprofits to fund raise and donors to give.
+   - Architect a full-stack isomorphic Scala application, including design & implementation of data model, API, and UI.
+   - Balance ideal solutions with startup constraints. Utilize best practices and pursue security, scalability, and maintainability by design.
+
+*** Research Assistant - Institute for Intelligent Systems
+    June 2014 - September 2015
+   - Worked with Windows Azure Pack and C# to help prototype backend for experimental Web App.
+   - Used web scraping technologies and Python scripting to gather and format text data for large $n$ Natural Language Processing research.
+   - Attended, participated in, and presented to public weekly research meetings.
+     
+*** Quality Tester - Adobe, contracted through ZeroChaos
+    November 2012 - April 2013
+   - Used knowledge of UNIX systems to perform daily black-box testing of proprietary software on Android devices.
+   - Responsible for writing bug reports and communicating problems in a precise manner.
+   - Streamlined workflow across the team by writing and disseminating shell utilities.
+
+** Technologies
+-----
+*** Favorites
+Scala, Python, Javascript, Linux, Emacs, Vim, Functional Programming, SQL, Git, HTML5, CSS3, Docker, Twitter Bootstrap
+*** Familiar with
+Node.js, AngularJS, Express.js, MongoDB, Google Search, Microsoft Windows, shell scripting, AWS, JQuery
+
+** Education
+-----
+*** BS Mathematics Honors - University of Tennessee
+Cum Laude - 2008-2012
+
+** Awards and honors
+-----
+National Merit Scholar - 2008-2012
+
+Eagle Scout - 2008
+    
+* Commentary                                                       :noexport:
+Do an `org-babel-tangle` then an `org-html-export-to-html` and you're off to the races.
+
+#+END_SRC
+
+#+BEGIN_SRC css :tangle resume.css :noexport
+html {
+  font-size: 78%;
+}
+
+body {
+  font-family: Source Sans, Helvetica, Sans-Serif;
+}
+
+p {
+  margin: .5em .5em 0 .5em;
+}
+
+h2 {
+  margin-bottom: .2em;
+}
+
+h3 {
+  margin-top: 1em;
+  margin-bottom: .1em;
+}
+
+body {
+  background-color: "black";
+}
+
+.info {
+  text-align: center;
+}
+
+hr {
+  border-color: #a3bbe0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.info .org-ul {
+  list-style: none;
+}
+
+
+#+END_SRC
