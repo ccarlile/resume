@@ -5,7 +5,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="resume.css" />
 
 #+begin_info
-Memphis, TN • 901-356-4387
+Senior Full-Stack Developer • Las Vegas, NV • 901-356-4387
 
 christopher.carlile@gmail.com
 
@@ -15,18 +15,19 @@ https://github.com/ccarlile
 
 ** Professional Experience
 -----
-*** Data Services Engineer - Banno | Jack Henry & Associates
-    April 2016 - Present
-   - Contributed to, then lead design of, a mission-critical ACH transfers feature in a legacy Akka codebase.
-   - Ensure that client data & money are secure in transit and at rest using fundamental approaches.
-   - Attended and presented in regular meetings for all-hands, product, and team. Participate in peer-learning book clubs.
-   - Engage with client-facing teams to diagnose, document, and fix issues. Started and continue to maintain a team wiki.
+*** Senior Data Services Engineer - Banno | Jack Henry & Associates
+    April 2016 - February 2020
+   - Contributed to, then led design of, a mission-critical ACH transfers feature in a legacy Akka codebase.
+   - Ensured that client data & money are secure in transit and at rest.
+   - Helped migrate toward a services-oriented architecture and a pure-FP paradigm using the Typelevel stack.
+   - Attended and presented in regular meetings for all-hands, product, and team. Participated in peer-learning book clubs.
+   - Engaged with client-facing teams to diagnose, document, and fix issues. Started and continued to maintain a team wiki.
      
 *** Founder - Benntoo
-    2016 - Present
+    2016 - 2019
    - Conceived, planned, and executed a business model that empowers nonprofits to fund raise and donors to give.
-   - Architect a full-stack isomorphic Scala application, including design & implementation of data model, API, and UI.
-   - Balance ideal solutions with startup constraints. Utilize best practices and pursue security, scalability, and maintainability by design.
+   - Architected a full-stack isomorphic Scala application, including design & implementation of data model, API, and UI.
+   - Balanced ideal solutions with startup constraints. Utilized best practices and pursued security, scalability, and maintainability by design.
 
 *** Research Assistant - Institute for Intelligent Systems
     June 2014 - September 2015
@@ -43,9 +44,9 @@ https://github.com/ccarlile
 ** Technologies
 -----
 *** Favorites
-Scala, Python, Javascript, Linux, Emacs, Vim, Functional Programming, SQL, Git, HTML5, CSS3, Docker, Twitter Bootstrap
+Scala, Python, Javascript, Linux, Emacs, Vim, Functional Programming, SQL, Git, HTML5, CSS3, Docker, Nix, Elm
 *** Familiar with
-Node.js, AngularJS, Express.js, MongoDB, Google Search, Microsoft Windows, shell scripting, AWS, JQuery
+Node.js, AngularJS, Express.js, MongoDB, Vue.js, Google Search, shell scripting, AWS, JQuery, curly brace languages, Lisps, ML-style syntax
 
 ** Education
 -----
