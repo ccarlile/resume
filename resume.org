@@ -5,7 +5,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="resume.css" />
 
 #+begin_info
-Senior / Backend / Full-Stack / Functional Programming / Software Engineer
+Full-Stack / Functional Programming / Software Engineer
 
 Las Vegas, NV • 901-356-4387 • christopher.carlile@gmail.com • @ccarlile
 #+end_info
@@ -32,7 +32,7 @@ March 2021 - August 2021
   
 *** Senior Data Services Engineer - Banno | Jack Henry & Associates
     April 2016 - February 2020
-   - Contributed to, then led design of, a mission-critical ACH transfers feature in a legacy Akka codebase.
+   - Contributed to, then assumed design of, a mission-critical ACH transfers feature in a legacy Akka codebase.
    - Ensured that client data & money are secure in transit and at rest.
    - Helped migrate toward a services-oriented architecture and a pure-FP paradigm using the Typelevel stack.
    - Attended and presented in regular meetings for all-hands, product, and team. Participated in peer-learning book clubs.
@@ -53,9 +53,9 @@ March 2021 - August 2021
 ** Technologies
 -----
 *** Favorites
-Scala, Python, Javascript, Typescript, Linux, Emacs, Vim, Functional Programming, SQL (Postgres), Git, HTML5, CSS3, Docker, Nix/NixOS, Elm, Kubernetes, Kafka, Typelevel stack (cats, cats-effect, http4s, fs2, fs2-kafka, circe), helm/helmfile, AWS (RDS, EC2, ECR, MSK, EKS, S3)
+Scala, Python, Javascript, Typescript, Linux, Emacs, Vim, Functional Programming, SQL (Postgres), Git, HTML5, CSS3, Docker, Nix/NixOS, Elm, Kubernetes, Kafka, Typelevel stack (cats, cats-effect, http4s, fs2, fs2-kafka, circe), helm/helmfile, AWS (RDS, EC2, ECR, MSK, EKS, S3), Rust
 *** Familiar with
-Node.js, AngularJS, Express.js, MongoDB, Vue.js, Google Search, shell scripting, JQuery, curly brace languages, Lisps, ML-style syntax, Rust, Purescript, Haskell, Spring Java
+Node.js, AngularJS, Express.js, MongoDB, Vue.js, Google Search, shell scripting, JQuery, curly brace languages, Lisps, ML-style syntax, Purescript, Haskell, Spring Java
 
 ** Education
 -----
