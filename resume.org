@@ -5,25 +5,29 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="resume.css" />
 
 #+begin_info
-Full-Stack / Functional Programming / Software Engineer
+Full Lifecycle Specialist of Scalable API's and Data Processing • Leveraging Functional Programming in Regulated Environments
 
-Las Vegas, NV • 901-356-4387 • christopher.carlile@gmail.com • @ccarlile
+Portland, OR • 901-356-4387 • christopher.carlile@gmail.com • @ccarlile
 #+end_info
 
 
 ** Professional Experience
 -----
 
-*** Team Scala Engineer - Caesars Digital
-August 2021 - Present
+*** Caesars Digital
+
+**** Tech Lead
+January 2024 - Present
+- Selected as backend steward for all retention-related functionality. Established long-term strategy to address redunant systems and ensured work being scoped aligned with strategy. Worked with product, engineering, and management stakeholders to contextualize tactical, ticket-level work in terms of product and engineering roadmaps.
+- Placed in lead of struggling refer-a-friend product. Led implementation of code and process changes to improve performance and stability. Addressed tech debt while delivering critical features. Provided multiple architectural approaches in the context of high-level strategies. Successfully pivoted to meet deadline when strategy changed thanks to prioritizing contract-driven development. Result: 100% YoY increase in RAF conversions for Super Bowl.
+**** Team Scala Engineer
+August 2021 - December 2023
 - Sought input from a variety of stakeholders to establish direction for newly established vertical. Scoped and integrated feedback for architectural proposals to enable multiple stark UX improvements for brand-critical loyalty program with 1+M monthly active users. Modified existing code in multiple projects,  wrote new APIs, coordinated data migrations,  and created tickets for frontend work.
 - Established from the ground-up new services-oriented modular monolith Scala project leveraging pure Functional Programming with effect systems, including metering, circuit breaking, and kubernetes deployment code across several environments and multiple jurisdictions in a highly regulated industry.
 - Consistently shared knowledge in cross-vertical engineering group on topics like generating lazy streams, finding memory leaks in JVM applications, and leveraging Kleisli arrows to inject distributed tracing context. Published guidelines for asynchronous communication in Slack that became part of onboarding materials for entire division.
-
-**** Awards Received
+**** Awards and Honors
 Caesars Founders Award - 2023
-
-*** Engineer - Aria Systems
+*** Engineer - Aria Systems                                        :noexport:
 March 2021 - August 2021
 - Contributed to and provided guidance for backend rearchitecture effort in areas of microservice design and functional architecture.
 - Quickly adapted to legacy design patterns, technologies, and languages to provide contributions in brownfield code.
@@ -102,6 +106,7 @@ body {
 
 .info {
   text-align: center;
+  font-size: 110%
 }
 
 hr {
